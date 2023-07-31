@@ -9,19 +9,21 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter>
+      {/* <BrowserRouter>
       
       {!user?(<Login />):(
   <Routes>
   <Route path="/" element={ <Home />} />  
-  </Routes>
+  </Routes> */}
 
-      )}
-        
-    
-  
-  
-      </BrowserRouter>
+
+<BrowserRouter>
+      
+
+<Routes>
+<Route path="/" element={ <Home />} />  
+</Routes>
+  </BrowserRouter>
      
     </div>
   );
