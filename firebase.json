@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "netflix",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
